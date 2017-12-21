@@ -8,6 +8,28 @@ aidaTT is distributed under the [GPLv3 License](http://www.gnu.org/licenses/gpl-
 
 [![License](https://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
+## Dependencies
+
+### streamlog
+
+Note the svn link is broken on the
+[streamlog website](http://aidasoft.web.cern.ch/streamlog).
+
+```
+svn co https://svnsrv.desy.de/public/aidasoft/streamlog/trunk/ streamlog
+```
+
+### GeneralBrokenLines
+
+Needed to build GBL examples.
+
+[GeneralBrokenLines website](https://www.wiki.terascale.de/index.php/GeneralBrokenLines)
+
+```
+svn checkout http://svnsrv.desy.de/public/GeneralBrokenLines/tags/V02-01-01 GeneralBrokenLines
+```
+
+
 ## License and Copyright
 Copyright (C), aidaTT Authors
 
